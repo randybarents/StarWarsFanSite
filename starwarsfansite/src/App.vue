@@ -1,16 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <RequestInformation />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RequestInformation from './components/RequestInformation.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    ApiRequestTest
+    RequestInformation
   }
 }
 </script>
