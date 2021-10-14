@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rdBORj7tHhKbZ2dbjgB7YW2kj0ZGZGztg5O3cXSaG42/HEgkNn53G576NSDKOrZmuL9hDrTUy4ocNVUM/HtOYQ==",
+  "dgSpecHash": "yf3dEF2O18qlyfYv8GALx0M/lZtSLS2H8V/w/9cghBKA+iv9p1NBha03ccT7hnbV9eLfvdF9yKD/uFBs3fyRCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\randy\\Documents\\GitHub\\StarWarsFanSite\\starwarsinfoapi\\starwarsinfoapi\\starwarsinfoapi.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Git\\StarWarsFanSite\\StarWarsFanSite\\starwarsinfoapi\\starwarsinfoapi\\starwarsinfoapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Randy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
