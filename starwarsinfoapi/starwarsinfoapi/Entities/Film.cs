@@ -7,7 +7,7 @@ namespace starwarsinfoapi.Entities
 {
     public class Film
     {
-        public int id { get; set; }
+        public int episode_id { get; set; }
         public List<string> vehicles { get; set; }
         public string url { get; set; }
         public List<string> starships { get; set; }
@@ -18,5 +18,6 @@ namespace starwarsinfoapi.Entities
         public string director { get; set; }
         public List<string> characters { get; set; }
         public string opening_crawl { get; set; }
+        public string release_date { get; set; }
     }
 }

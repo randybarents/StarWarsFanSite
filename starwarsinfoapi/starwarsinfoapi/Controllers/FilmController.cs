@@ -15,7 +15,7 @@ namespace starwarsinfoapi.Controllers
         [HttpGet]
         public IActionResult GetFilm (string id)
         {
-            id = "4";
+            id = "3";
             return Json(commonFunctions.GetSingleByUrl<Entities.Film>("/films/" + id));
         }
     }

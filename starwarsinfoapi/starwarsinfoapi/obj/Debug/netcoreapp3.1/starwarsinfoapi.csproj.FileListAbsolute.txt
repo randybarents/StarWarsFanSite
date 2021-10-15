@@ -41,3 +41,5 @@ D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\obj\Debug
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\obj\Debug\netcoreapp3.1\starwarsinfoapi.genruntimeconfig.cache
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\obj\Debug\netcoreapp3.1\starwarsinfoapi.csproj.CopyComplete
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\obj\Debug\netcoreapp3.1\starwarsinfoapi.csproj.CopyComplete

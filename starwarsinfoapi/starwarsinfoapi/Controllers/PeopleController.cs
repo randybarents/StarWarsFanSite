@@ -15,7 +15,7 @@ namespace starwarsinfoapi.Controllers
         [HttpGet]
         public IActionResult GetPeople(string id)
         {
-            id = "6";
+            id = "10";
             return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" + id));
         }
     }
