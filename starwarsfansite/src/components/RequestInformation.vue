@@ -25,7 +25,6 @@ export default {
   methods: {
     async getInfo()
     {
-      console.log("Starting api call");
       const info = await axios
       .get('https://localhost:44366/Film')
       .then((result) => {return result.data;});
