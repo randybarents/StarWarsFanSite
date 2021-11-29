@@ -11,11 +11,11 @@ namespace starwarsinfoapi.Controllers
     public class PeopleController : Controller
     {
         CommonFunctions commonFunctions = new CommonFunctions();
+        public List<Entities.People> allPeople = new List<Entities.People>();
 
         [HttpGet]
         public IActionResult GetPeople(string id)
         {
-            id = "10";
             return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" + id));
         }
     }

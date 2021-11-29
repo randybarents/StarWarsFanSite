@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import RequestInformation from './components/RequestInformation.vue'
+import RequestInformation from './components/InformationHomePage.vue'
 
 export default {
   name: 'App',
