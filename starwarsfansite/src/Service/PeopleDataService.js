@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const People_API_URL = 'https://localhost:44366/People'
+const People_API_URL = '/people'
 
 class PeopleDataServices
 {
@@ -14,3 +14,5 @@ class PeopleDataServices
             return axios.get(`${People_API_URL}`)
         }
 }
+
+export default new PeopleDataServices()

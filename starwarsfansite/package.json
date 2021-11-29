@@ -35,6 +35,9 @@
     },
     "rules": {}
   },
+
+  "proxy": "http://localhost:44366",
+
   "browserslist": [
     "> 1%",
     "last 2 versions",
