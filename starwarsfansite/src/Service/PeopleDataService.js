@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const People_API_URL = '/people'
+const People_API_URL = 'https://localhost:44366/people'
 
 class PeopleDataServices
 {

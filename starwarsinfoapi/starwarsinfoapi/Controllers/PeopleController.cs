@@ -13,6 +13,7 @@ namespace starwarsinfoapi.Controllers
         CommonFunctions commonFunctions = new CommonFunctions();
 
         [HttpGet]
+        [Route("/people/{id}")]
         public IActionResult GetPersonById(string id)
         { 
             return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" + id));
