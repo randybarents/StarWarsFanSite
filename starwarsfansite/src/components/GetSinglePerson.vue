@@ -1,8 +1,8 @@
 <template>
-    <div class="RequestInformation">
+    <div class="GetSinglePerson">
       <input v-model="personId" placeholder="enter a number from 1 to 83">
       <button v-on:click="GetPersonById">Get entity information</button>
-      <p>{{ this.res }}</p>
+      <p>{{ this.res.data.name }}</p>
     </div>
 </template>
 

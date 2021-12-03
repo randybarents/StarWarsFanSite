@@ -33,5 +33,12 @@ namespace starwarsinfoapi.Controllers
             T entity = JsonConvert.DeserializeObject<T>(json);
             return entity;
         }
+
+        /*public List<T> GetMultiple<T>(string url)
+        {
+            string json = RequestData(swapiUrl + url);
+            List<T> response = JsonConvert.DeserializeObject<T>(json);
+            return response;
+        }*/
     }
 }

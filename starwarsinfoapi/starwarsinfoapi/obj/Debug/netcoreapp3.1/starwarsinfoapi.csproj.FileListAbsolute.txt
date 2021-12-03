@@ -48,3 +48,8 @@ D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
 D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

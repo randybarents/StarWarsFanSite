@@ -18,5 +18,12 @@ namespace starwarsinfoapi.Controllers
         { 
             return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" + id));
         }
+
+        /*[HttpGet]
+        [Route("/people")]
+        public List<Entities.People> GetAllPeople()
+        {
+            return Json(commonFunctions.GetMultiple<Entities.People>("/people"));
+        }*/
     }
 }
