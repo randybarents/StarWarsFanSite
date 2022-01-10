@@ -4,13 +4,19 @@
           <li><a href="">Home</a></li>
           <li><a href="/GetSinglePerson">People Information</a></li>
           <li><a href="">Start Quiz</a></li>
+          <GoogleLogin></GoogleLogin>
       </ul>
   </nav>
 </template>
 
 <script>
+import GoogleLogin from '../components/GoogleLogin.vue'
+
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    components: {
+      GoogleLogin
+    }
 }
 </script>
 
