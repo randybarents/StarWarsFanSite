@@ -12,7 +12,7 @@ namespace starwarsinfoapi.Controllers
 {
     public class CommonFunctions
     {
-        private readonly string swapiUrl = "http://swapi.dev/api";
+        private readonly string swapiUrl = "https://swapi.dev/api";
 
         private string RequestData(string url)
         {
@@ -33,12 +33,5 @@ namespace starwarsinfoapi.Controllers
             T entity = JsonConvert.DeserializeObject<T>(json);
             return entity;
         }
-
-        /*public List<T> GetMultiple<T>(string url)
-        {
-            string json = RequestData(swapiUrl + url);
-            List<T> response = JsonConvert.DeserializeObject<T>(json);
-            return response;
-        }*/
     }
 }

@@ -25,6 +25,7 @@ export default {
   methods: {
     onSignIn: function (googleUser) {
       var profile = googleUser.getBasicProfile();
+      console.log(profile)
 
       var id_token = googleUser.getAuthResponse().id_token;
       console.log(id_token);

@@ -13,17 +13,17 @@ namespace starwarsinfoapi.Controllers
         CommonFunctions commonFunctions = new CommonFunctions();
 
         [HttpGet]
-        [Route("/people/{id}")]
         public IActionResult GetPersonById(string id)
         { 
-            return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" + id));
+            return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" +id));
         }
 
-        /*[HttpGet]
-        [Route("/people")]
-        public List<Entities.People> GetAllPeople()
+        [HttpGet]
+        [Route("/Peoples")]
+        public Entities.PeopleArray GetAllPeople(string pageId = "1")
         {
-            return Json(commonFunctions.GetMultiple<Entities.People>("/people"));
-        }*/
+            Entities.PeopleArray result = commonFunctions.GetSingleByUrl<Entities.PeopleArray>("people/?page=" + pageId);
+            return result;
+        }
     }
 }
