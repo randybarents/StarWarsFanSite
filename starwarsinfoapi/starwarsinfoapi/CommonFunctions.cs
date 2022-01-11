@@ -6,7 +6,11 @@ using System.Collections.Specialized;
 using System.Net;
 using System.Text;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.IO;
+using Flurl;
+using Flurl.Http;
+using starwarsinfoapi.Entities;
 
 namespace starwarsinfoapi.Controllers
 {
@@ -14,24 +18,19 @@ namespace starwarsinfoapi.Controllers
     {
         private readonly string swapiUrl = "https://swapi.dev/api";
 
-        private string RequestData(string url)
+        public async Task<People> GetPerson(int id)
         {
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
-            httpWebRequest.ContentType = "text/json";
-            httpWebRequest.Method = "GET";
-            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-            {
-                var resultText = streamReader.ReadToEnd();
-                return resultText;
-            }
+            People person;
+            dynamic response = await (swapiUrl + "/people/" + id).GetStringAsync();
+            person = CreatePerson(response);
+            return person;
         }
 
-        public T GetSingleByUrl<T>(string url)
+        private People CreatePerson(dynamic response)
         {
-            string json = RequestData(swapiUrl + url);
-            T entity = JsonConvert.DeserializeObject<T>(json);
-            return entity;
+            People person;
+            person = JsonConvert.DeserializeObject<People>(response);
+            return person;
         }
     }
 }

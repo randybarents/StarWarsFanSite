@@ -12,11 +12,11 @@ namespace starwarsinfoapi.Controllers
     {
         CommonFunctions commonFunctions = new CommonFunctions();
 
-        [HttpGet]
+        /*[HttpGet]
         public IActionResult GetFilm (string id)
         {
             id = "3";
             return Json(commonFunctions.GetSingleByUrl<Entities.Film>("/films/" + id));
-        }
+        }*/
     }
 }

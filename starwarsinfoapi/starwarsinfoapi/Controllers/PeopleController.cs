@@ -10,20 +10,13 @@ namespace starwarsinfoapi.Controllers
     [Route("[controller]")]
     public class PeopleController : Controller
     {
-        CommonFunctions commonFunctions = new CommonFunctions();
+        CommonFunctions apiFunctions = new CommonFunctions();
 
-        [HttpGet]
-        public IActionResult GetPersonById(string id)
-        { 
-            return Json(commonFunctions.GetSingleByUrl<Entities.People>("/people/" +id));
-        }
-
-        [HttpGet]
-        [Route("/Peoples")]
-        public Entities.PeopleArray GetAllPeople(string pageId = "1")
+        [HttpGet("GetPerson")]
+        public async Task<IActionResult> GetPerson(int id)
         {
-            Entities.PeopleArray result = commonFunctions.GetSingleByUrl<Entities.PeopleArray>("people/?page=" + pageId);
-            return result;
+            dynamic personInfo = await (apiFunctions.GetPerson(id));
+            return Ok(personInfo);
         }
     }
 }

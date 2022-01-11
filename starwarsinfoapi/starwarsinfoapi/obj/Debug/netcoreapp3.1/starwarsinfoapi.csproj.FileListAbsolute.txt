@@ -53,3 +53,5 @@ C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\
 C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
 C:\Users\randy\Documents\GitHub\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Flurl.dll
+D:\Git\StarWarsFanSite\StarWarsFanSite\starwarsinfoapi\starwarsinfoapi\bin\Debug\netcoreapp3.1\Flurl.Http.dll
