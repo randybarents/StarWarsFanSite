@@ -9,8 +9,8 @@
     </h1>
 
     <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>
-    <SidebarLink to="/GetAllPeoplePaginated" icon="fas fa-users">Character Information</SidebarLink>
-    <SidebarLink to="/Quiz" icon="fas fa-chart-bar">Test your knowledge</SidebarLink>
+    <SidebarLink to="/GetAllPeoplePaginated" icon="fas fa-user-friends">Character Information</SidebarLink>
+    <SidebarLink to="/Quiz" icon="fas fa-jedi">Test your knowledge</SidebarLink>
     <SidebarLink to="/LeaderBoard" icon="fas fa-chart-bar">Check quiz leaderboard</SidebarLink>
 
     <span

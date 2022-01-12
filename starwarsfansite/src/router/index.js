@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import GetSinglePerson from './../components/GetSinglePerson'
 import GetAllPeoplePaginated from './../components/GetAllPeoplePaginated'
 import Quiz from './../components/Quiz'
-import LeaderBoard from './../components/LeaderBoard.'
+import LeaderBoard from '../components/LeaderBoard'
 
 const routes = [
     {
