@@ -3,6 +3,7 @@
   <div :style="{ 'margin-left': sidebarWidth }">
     <router-view />
   </div>
+  <div :style="myStyle" id="wrapper"></div>
 </template>
 
 <script>
@@ -21,6 +22,10 @@ export default {
 </script>
 
 <style>
+#myStyle{
+  background-color: #2c3e50;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -37,5 +42,9 @@ export default {
 }
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+body{
+  background-color: #1b1b1b;
 }
 </style>
