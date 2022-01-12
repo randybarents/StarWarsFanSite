@@ -18,5 +18,12 @@ namespace starwarsinfoapi.Controllers
             dynamic personInfo = await (apiFunctions.GetPerson(id));
             return Ok(personInfo);
         }
+
+        [HttpGet("GetPeople")]
+        public async Task<IActionResult> GetPeoplePaginated(int pageNumber)
+        {
+            dynamic peopleListInfo = await (apiFunctions.GetPeoplePaginated(pageNumber));
+            return Ok(peopleListInfo);
+        }
     }
 }

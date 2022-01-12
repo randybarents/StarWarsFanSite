@@ -1,18 +1,17 @@
 import axios from "axios";
 
-const People_API_URL = 'https://localhost:44366/people'
-const Paginated_People_API_URL = 'https://localhost:44366/peoples'
+const People_API_URL = 'https://localhost:44366/People/'
 
 class PeopleDataServices
 {
         GetPersonById(id)
         {
-            return axios.get(`${People_API_URL}/${id}`)
+            return axios.get(`${People_API_URL}GetPerson?Id=${id}`)
         }
 
-        GetAllPeoplePaginated()
+        GetPeoplePaginated(pageNumber)
         {
-            return axios.get(`${Paginated_People_API_URL}/${id}`)
+            return axios.get(`${People_API_URL}GetPeople?pageNumber=${pageNumber}`)
         }
 }
 

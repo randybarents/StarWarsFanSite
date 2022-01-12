@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import GetSinglePerson from './../components/GetSinglePerson'
 import GetAllPeoplePaginated from './../components/GetAllPeoplePaginated'
-import HomePage from './../components/HomePage'
+import Quiz from './../components/Quiz'
 
 const routes = [
     {
@@ -13,6 +13,11 @@ const routes = [
       path: "/GetAllPeoplePaginated",
       name: "GetAllPeoplePaginated",
       component: GetAllPeoplePaginated,
+    },
+    {
+      path: "/Quiz",
+      name: "Quiz",
+      component: Quiz,
     },
   ];
   

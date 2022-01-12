@@ -26,11 +26,27 @@ namespace starwarsinfoapi.Controllers
             return person;
         }
 
+        public async Task<PeopleList> GetPeoplePaginated(int pageNumber)
+        {
+            PeopleList peopleList;
+            dynamic response = await (swapiUrl + "/people/?page=" + pageNumber).GetStringAsync();
+            peopleList = CreatePeopleList(response);
+            return peopleList;
+
+        }
+
         private People CreatePerson(dynamic response)
         {
             People person;
             person = JsonConvert.DeserializeObject<People>(response);
             return person;
+        }
+
+        private PeopleList CreatePeopleList(dynamic response)
+        {
+            PeopleList peopleList;
+            peopleList = JsonConvert.DeserializeObject<PeopleList>(response);
+            return peopleList;
         }
     }
 }

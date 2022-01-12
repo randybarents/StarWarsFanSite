@@ -10,7 +10,7 @@
 import PeopleDataService from '../Service/PeopleDataService'
 
 export default{
-  name: "RequestPeopleInfo",
+  name: "GetSinglePerson",
   components: {
   },
   data: () => ({

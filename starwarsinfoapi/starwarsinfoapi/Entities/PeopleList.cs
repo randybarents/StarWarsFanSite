@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace starwarsinfoapi.Entities
 {
-    public class PeopleArray
+    public class PeopleList
     {
         public People[] results { get; set; }
     }

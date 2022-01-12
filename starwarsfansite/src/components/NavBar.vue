@@ -3,6 +3,7 @@
       <ul class="navBar">
           <li><a href="">Home</a></li>
           <li><a href="/GetSinglePerson">People Information</a></li>
+          <li><a href="/GetAllPeoplePaginated">Paginated People</a></li>
           <li><a href="">Start Quiz</a></li>
           <!-- <GoogleLogin></GoogleLogin> -->
       </ul>
@@ -43,7 +44,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #4b66c5;
+  background-color: #2b2d31;
   color: rgb(0, 0, 0);
 }
 </style>
