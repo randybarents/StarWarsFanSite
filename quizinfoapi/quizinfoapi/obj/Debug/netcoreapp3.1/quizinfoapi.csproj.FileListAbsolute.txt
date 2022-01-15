@@ -1,0 +1,5 @@
+D:\Git\StarWarsFanSite\StarWarsFanSite\quizinfoapi\quizinfoapi\obj\Debug\netcoreapp3.1\quizinfoapi.csprojAssemblyReference.cache
+D:\Git\StarWarsFanSite\StarWarsFanSite\quizinfoapi\quizinfoapi\obj\Debug\netcoreapp3.1\quizinfoapi.AssemblyInfoInputs.cache
+D:\Git\StarWarsFanSite\StarWarsFanSite\quizinfoapi\quizinfoapi\obj\Debug\netcoreapp3.1\quizinfoapi.AssemblyInfo.cs
+D:\Git\StarWarsFanSite\StarWarsFanSite\quizinfoapi\quizinfoapi\obj\Debug\netcoreapp3.1\quizinfoapi.csproj.CoreCompileInputs.cache
+D:\Git\StarWarsFanSite\StarWarsFanSite\quizinfoapi\quizinfoapi\obj\Debug\netcoreapp3.1\quizinfoapi.MvcApplicationPartsAssemblyInfo.cache
