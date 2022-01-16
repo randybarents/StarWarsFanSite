@@ -13,10 +13,13 @@ namespace quizinfoapi.DataLogic
     {
         private readonly string connectionString = "Server=studmysql01.fhict.local;Uid=dbi365190;Database=dbi365190;Pwd=MySQLPass123@;";
 
-        /*public Task GetHighScoresAsync()
+        public List<LeaderBoard> GetHighScores()
         {
-            List<LeaderBoard> scores = new List<LeaderBoard>();
-            var sql = $"SELECT Username , Score FROM leaderboard";
-        }*/
+            string sql = $"SELECT Username , Score FROM leaderboard";
+            using (IDbConnection con = new MySqlConnection(connectionString))
+            {
+                 return con.Query<LeaderBoard>(sql).ToList();
+            }
+        }
     }
 }

@@ -5,20 +5,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using quizinfoapi.DataLogic;
+using quizinfoapi.Entities;
 
 namespace quizinfoapi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class LeaderBoardController : ControllerBase
     {
         HighScoreDataProcessor DataProcessor = new HighScoreDataProcessor();
 
         [HttpGet("GetHighScores")]
-        public async Task<IActionResult> GetHighScores()
+        public async Task<ActionResult<IEnumerable<LeaderBoard>>> GetHighScores()
         {
-            dynamic highScores = await (DataProcessor.GetHighScoresAsync());
-            return Ok(highScores);
+            List<LeaderBoard> scores = DataProcessor.GetHighScores();
+            return Ok(scores);
         }
     }
 }
