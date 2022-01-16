@@ -16,10 +16,10 @@ namespace quizinfoapi.Controllers
         HighScoreDataProcessor DataProcessor = new HighScoreDataProcessor();
 
         [HttpGet("GetHighScores")]
-        public async Task<ActionResult<IEnumerable<LeaderBoard>>> GetHighScores()
+        public async Task<List<LeaderBoard>> GetHighScores()
         {
             List<LeaderBoard> scores = DataProcessor.GetHighScores();
-            return Ok(scores);
+            return scores;
         }
     }
 }

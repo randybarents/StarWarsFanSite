@@ -1,5 +1,6 @@
 <template>
 <div id="app" class="col-sm-12">
+  <h1 style="color:yellow">Character information</h1>
   <div class="infotable">
   <table border=10 class="datatable">
     <thead>

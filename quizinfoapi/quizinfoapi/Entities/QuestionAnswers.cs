@@ -7,7 +7,7 @@ namespace quizinfoapi.Entities
 {
     public class QuestionAnswers
     {
-        public int QuestionId { get; set; }
-        public int AnswerId{ get; set; }
+        public Question questions { get; set; }
+        public List<Answer> answers { get; set; }
     }
 }

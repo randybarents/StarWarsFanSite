@@ -1,6 +1,6 @@
 <template>
     <div class="Quiz">
-      <p>Quiz Placeholder</p>
+      <h1 style="color:yellow">Test your knowledge</h1>
     </div>
 </template>
 
