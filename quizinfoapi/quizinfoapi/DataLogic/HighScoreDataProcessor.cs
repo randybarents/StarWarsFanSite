@@ -15,7 +15,7 @@ namespace quizinfoapi.DataLogic
 
         public List<LeaderBoard> GetHighScores()
         {
-            string sql = $"SELECT Username , Score FROM leaderboard";
+            string sql = $"SELECT Username , Score FROM leaderboard ORDER BY Score DESC";
             using (IDbConnection con = new MySqlConnection(connectionString))
             {
                  return con.Query<LeaderBoard>(sql).ToList();
