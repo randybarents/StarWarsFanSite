@@ -27,7 +27,7 @@
 This project contains a front-end and two back-end api's to recieve information about star wars characters and take quizzes about them
 
 General information:
-* One of the back-ends communicates with an external api called [Swapi] (https://swapi.dev/)
+* One of the back-ends communicates with an external api called [Swapi](https://swapi.dev/)
 * The other back-end can communicate using a mysql database
 * The front-end is made in vue.js
 
@@ -55,7 +55,7 @@ To get started clone this repository or download the code as a zip
 ## Prerequisites
 
 To get started make sure you have a code editor of your choice to open the C# back-ends.
-Also install NodeJs which you can find [here] (https://nodejs.org/en/)
+Also install NodeJs which you can find [here](https://nodejs.org/en/)
 
 ## Installation
 
